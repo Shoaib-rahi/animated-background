@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+background-color: #111;
+        height: 100vh;
+    }
+
+    .wrapper span{
+        position: fixed;
+        bottom: -180px;
+        width: 50px;
+        height: 50px;
+        z-index: -1;
+    
+        background-color: #333;
+        box-shadow: 0 0 50px #0072ff,
+            0 0 100px #0072ff,
+            0 0 150px #0072ff,
+            0 0 200px #0072ff;
+        animation: animated 10s linear infinite;
+    }
+
+    .wrapper span:nth-child(1) {
+        left: 60px;
+        animation-delay: 0.6s;
+       
+    }
+
+    .wrapper span:nth-child(2) {
+        left: 10%;
+        animation-delay: 2s;
+        width: 60px;
+        height: 60px;
+    }
+
+    .wrapper span:nth-child(3) {
+        left: 20%;
+        animation-delay: 4s;
+    }
+
+    .wrapper span:nth-child(4) {
+        left: 40%;
+        animation-delay: 5s;
+        width: 80px;
+        height: 80px;
+    }
+
+    .wrapper span:nth-child(5) {
+        left: 80%;
+        animation-delay: 4s;
+     
+    }
+
+    .wrapper span:nth-child(6) {
+        left: 50%;
+        animation-delay: 5s;
+        width: 100px;
+        height: 100px;
+    }
+
+    .wrapper span:nth-child(7) {
+        left: 100%;
+        animation-delay: 6s;
+      
+    }
+
+    .wrapper span:nth-child(8) {
+        left: 60%;
+        animation-delay: 4s;
+        width: 120px;
+        height: 120px;
+    }
+
+    .wrapper span:nth-child(9) {
+        left: 65%;
+        animation-delay: 4.5s;
+    }
+
+    .wrapper span:nth-child(10) {
+        left: 100%;
+        animation-delay: 5s;
+        width: 100px;
+        height: 100px;
+    }
+
+    .wrapper span:nth-child(11) {
+        left: 60px;
+        animation-delay: 0.6s;
+       
+    }
+
+    .wrapper span:nth-child(12) {
+        left: 10%;
+        animation-delay: 2s;
+        width: 60px;
+        height: 60px;
+    }
+
+    .wrapper span:nth-child(13) {
+        left: 20%;
+        animation-delay: 4s;
+    }
+
+    .wrapper span:nth-child(14) {
+        left: 40%;
+        animation-delay: 5s;
+        width: 80px;
+        height: 80px;
+    }
+
+    .wrapper span:nth-child(5) {
+        left: 80%;
+        animation-delay: 4s;
+     
+    }
+
+    .wrapper span:nth-child(16) {
+        left: 50%;
+        animation-delay: 5s;
+        width: 100px;
+        height: 100px;
+    }
+
+    .wrapper span:nth-child(17) {
+        left: 100%;
+        animation-delay: 6s;
+      
+    }
+
+    .wrapper span:nth-child(18) {
+        left: 60%;
+        animation-delay: 4s;
+        width: 120px;
+        height: 120px;
+    }
+
+    .wrapper span:nth-child(9) {
+        left: 5%;
+        animation-delay: 2s;
+    }
+
+    .wrapper span:nth-child(20) {
+        left: 100%;
+        animation-delay: 7s;
+        width: 90px;
+        height: 90px;
+    }
+    @keyframes animated {
+        0% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        80% {
+            opacity: .7;
+        }
+
+        100% {
+            transform: translateY(-800px) rotate(360deg);
+            opacity: 0;
+        }
+    }
+    .content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+    }
+    h1{
+        font-size: 5rem;
+        letter-spacing: 2px;
+        color: transparent;
+       -webkit-text-stroke-color: white;
+       -webkit-text-stroke-width: 4px;
+       
+    }
+    
+</style>
+
+<body>
+    <div class="wrapper">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="content">
+        <h1>Shoaib Rahi</h1>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil atque odio animi tempore nesciunt praesentium vel, consectetur perspiciatis optio nulla perferendis repellendus voluptatum neque itaque eligendi cumque cupiditate, expedita aut?</p>
+    </div>
+</body>
+
+</html>
